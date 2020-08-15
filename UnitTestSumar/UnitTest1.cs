@@ -21,5 +21,20 @@ namespace UnitTestSumar
             //Assert
             Assert.AreEqual(esperado,resultado);
         }
+
+        public void TestAdd2()
+        {
+            //Arrange
+            SumaController sumaController = new SumaController();
+            int a = -7;
+            int b = -1;
+            int esperado = -8;
+
+            //Act
+            int resultado = sumaController.Add(a, b);
+
+            //Assert
+            Assert.AreEqual(esperado, resultado);
+        }
     }
 }
