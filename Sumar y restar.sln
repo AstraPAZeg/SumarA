@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sumar", "Sumar\Sumar.csproj", "{B4BCC3F4-8118-4F5B-AA37-BDE9AEE6EF24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSumar", "UnitTestSumar\UnitTestSumar.csproj", "{3ACDC157-3CFB-4D98-911C-4AEB4C5245C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestSumar", "UnitTestSumar\UnitTestSumar.csproj", "{3ACDC157-3CFB-4D98-911C-4AEB4C5245C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
