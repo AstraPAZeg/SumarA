@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Sumar.Controllers;
 
+
 namespace UnitTestSumar
 {
     [TestClass]
@@ -22,6 +23,7 @@ namespace UnitTestSumar
             Assert.AreEqual(esperado,resultado);
         }
 
+        [TestMethod]
         public void TestAdd2()
         {
             //Arrange
@@ -32,6 +34,22 @@ namespace UnitTestSumar
 
             //Act
             int resultado = sumaController.Add(a, b);
+
+            //Assert
+            Assert.AreEqual(esperado, resultado);
+        }
+
+        [TestMethod]
+        public void TestMul()
+        {
+            //Arrange
+            SumaController mulController = new SumaController();
+            int a = 2;
+            int b = 3;
+            int esperado = 6;
+
+            //Act
+            int resultado = mulController.Mul(a, b);
 
             //Assert
             Assert.AreEqual(esperado, resultado);
